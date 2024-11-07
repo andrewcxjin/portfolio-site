@@ -1,7 +1,7 @@
 // NOTE: You can split this file into multiple files if you want to, especially as you add more content.
 
 export const personalInfo = {
-  name: "Anna Lytics",
+  name: "Andrew Jin",
   title: "Senior AI Engineer & Machine Learning Researcher",
   imageUrl: "/profile.jpg",
   about: "I'm a Senior AI Engineer with 2+ years of experience in developing and deploying machine learning solutions. My expertise spans across computer vision, natural language processing, and reinforcement learning. I'm passionate about making AI more accessible and ethical.",
