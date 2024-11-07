@@ -2,33 +2,28 @@
 
 export const personalInfo = {
   name: "Andrew Jin",
-  title: "Senior AI Engineer & Machine Learning Researcher",
+  title: "Undergraduate Student @ Duke University",
   imageUrl: "/profile.jpg",
   about: "I'm a Senior AI Engineer with 2+ years of experience in developing and deploying machine learning solutions. My expertise spans across computer vision, natural language processing, and reinforcement learning. I'm passionate about making AI more accessible and ethical.",
   contact: {
-    email: "jane.doe@example.com",
-    github: "https://github.com/",
-    linkedin: "https://linkedin.com/in/",
-    twitter: "https://twitter.com/",
+    email: "andrewcxjin@gmail.com",
+    github: "https://github.com/andrewcxjin",
+    linkedin: "https://linkedin.com/in/andrewcxjin"
   }
 };
 
 export const skills = [
   {
+    name: "Programming",
+    items: ["Python", "MATLAB", "Java", "C++"],
+  },
+  {
     name: "AI/ML",
     items: ["PyTorch", "TensorFlow", "Transformers", "Computer Vision", "NLP"],
   },
   {
-    name: "Programming",
-    items: ["Python", "TypeScript", "C++", "Julia", "CUDA"],
-  },
-  {
     name: "Cloud & MLOps",
-    items: ["AWS", "Azure ML", "Docker", "Kubernetes", "MLflow"],
-  },
-  {
-    name: "Web Development",
-    items: ["React", "Next.js", "Node.js", "FastAPI", "GraphQL"],
+    items: ["AWS", "Azure ML", "Docker"],
   },
   {
     name: "Data Science",
@@ -38,47 +33,45 @@ export const skills = [
     name: "Tools",
     items: ["Git", "Linux", "VS Code", "PyCharm", "Jupyter Lab"],
   },
+  {
+    name: "Web Development",
+    items: ["Next.js"],
+  },
 ];
 
 export const experience = [
   {
-    title: "Machine Learning Engineer",
-    company: "AI Solutions Inc",
-    location: "Boston, MA",
-    period: "2022 - 2023",
+    title: "Medical Device Engineer",
+    company: "L&Z US Inc",
+    location: "Norwood, NJ",
+    period: "June 2024 - August 2024",
     description: [
-      "Developed NLP models for text classification and sentiment analysis",
-      "Implemented CI/CD pipelines for ML model deployment",
-      "Mentored junior engineers and interns",
+      
     ],
   },
   {
-    title: "AI Research Intern",
-    company: "Research Labs",
-    location: "Seattle, WA",
-    period: "2021",
+    title: "Researcher",
+    company: "Duke Mooney Neurobiology Lab",
+    location: "Durham, NC",
+    period: "August 2022 - Present",
     description: [
-      "Developed novel algorithms for reinforcement learning",
-      "Collaborated with cross-functional teams on research projects",
-      "Implemented and evaluated ML models for production use cases",
+
     ],
   },
 ];
 
 export const education = [
   {
-    degree: "M.S. in Artificial Intelligence",
+    degree: "M.S. in Artificial Intelligence for Product Innovation",
     school: "Duke University",
     location: "Durham, NC",
-    period: "2023 - 2025",
-    description: "Focus: Responsible AI",
+    period: "2025 - 2026"
   },
   {
-    degree: "B.S. in Computer Science",
-    school: "NC State University",
-    location: "Raleigh, NC",
-    period: "2018 - 2022",
-    description: "Minor in Mathematics",
+    degree: "B.S. in Biomedical Engineering",
+    school: "Duke University",
+    location: "Durham, NC",
+    period: "2021 - 2025"
   },
 ]; 
 
