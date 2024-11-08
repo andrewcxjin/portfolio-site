@@ -31,7 +31,7 @@ export const skills = [
   },
   {
     name: "Tools",
-    items: ["Git", "Linux", "VS Code", "PyCharm", "Jupyter Lab"],
+    items: ["Git", "VS Code", "Jupyter Lab"],
   },
   {
     name: "Web Development",
@@ -46,7 +46,8 @@ export const experience = [
     location: "Norwood, NJ",
     period: "June 2024 - August 2024",
     description: [
-      
+      "Collaborated with engineering team to assemble, check quality of, package, and ship 10,000+ central venous catheters",
+      "Learned and adhered to FDA protocols during the manufacturing process, ensuring compliance with regulatory standards"
     ],
   },
   {
@@ -55,7 +56,29 @@ export const experience = [
     location: "Durham, NC",
     period: "August 2022 - Present",
     description: [
-
+      "Trained and used neural network to recognize common sounds made by 80 hearing-impaired and hearing-enabled mice",
+      "Performed neurosurgery on lab mice to understand anatomical plasticity in hearing and deaf mice for a research paper",
+      "Conducted auditory brainstem response recordings to assess auditory functions of 50+ mice for future investigations"
+    ],
+  },
+  {
+    title: "Marketing Intern",
+    company: "J Lyee Health Co. Ltd",
+    location: "Nagoya, Japan",
+    period: "November 2022 - January 2024",
+    description: [
+      "Wrote and delivered an investor presentation resulting in a new strategic international partnership",
+      "Reviewed and edited 5+ marketing presentations for the introduction of health products to customers"
+    ],
+  },
+  {
+    title: "Educational Consultant",
+    company: "Sound Communication Consulting Inc",
+    location: "Vancouver, Canada",
+    period: "September 2015 - Present",
+    description: [
+      "Initiated and established a mentorship program for 20+ hard-of-hearing children across 5 different schools",
+      "Trained 20+ school teachers to use specialized microphone equipment and facilitate optimal classroom environments"
     ],
   },
 ];
@@ -83,13 +106,5 @@ export const projects = [
       internalLink: "/projects/nlp-platform",
       externalLink: "https://github.com/janedoe/nlp-platform",
       image: "/projects/nlp/main.jpg",
-    },
-    {
-      title: "Autonomous Drone Navigation",
-      description: "Implemented reinforcement learning algorithms for autonomous drone navigation in complex environments.",
-      technologies: ["PyTorch", "ROS", "C++", "Python"],
-      internalLink: "/projects/drone-nav",
-      externalLink: "https://github.com/janedoe/drone-nav",
-      image: "/projects/drone/main.jpg",
-    },
+    }
   ];
