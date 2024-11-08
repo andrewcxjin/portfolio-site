@@ -4,7 +4,7 @@ export const personalInfo = {
   name: "Andrew Jin",
   title: "Undergraduate Student @ Duke University",
   imageUrl: "/profile.jpg",
-  about: "I'm a Senior AI Engineer with 2+ years of experience in developing and deploying machine learning solutions. My expertise spans across computer vision, natural language processing, and reinforcement learning. I'm passionate about making AI more accessible and ethical.",
+  about: "I am currently a rising senior majoring in Biomedical Engineering at Duke University. I will be pursuing an accelerated Master of Engineering in Artificial Intelligence post-graduation. I also do neurobiology research in hearing and communcation, particularly in neural mechanisms.",
   contact: {
     email: "andrewcxjin@gmail.com",
     github: "https://github.com/andrewcxjin",
@@ -100,11 +100,11 @@ export const education = [
 
 export const projects = [
     {
-      title: "Natural Language Processing Platform",
-      description: "Built a scalable NLP platform for sentiment analysis and text classification, processing 1M+ documents daily.",
-      technologies: ["Transformers", "AWS", "TypeScript", "Python"],
+      title: "Characterizing Anatomical Plasticity in the Auditory Cortex of Deaf Mice",
+      description: "Imaged brain slices from hearing and deaf transgenic mice injected with a viral vector to label neurons connected to the auditory cortex, which were processed with the QUINT workflow to analyze neuron count distribution to the auditory cortext.",
+      technologies: ["Python", "MATLAB", "QUINT"],
       internalLink: "/projects/nlp-platform",
-      externalLink: "https://github.com/janedoe/nlp-platform",
+      externalLink: "",
       image: "/projects/nlp/main.jpg",
     }
   ];
