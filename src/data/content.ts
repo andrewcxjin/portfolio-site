@@ -4,7 +4,7 @@ export const personalInfo = {
   name: "Andrew Jin",
   title: "Undergraduate Student @ Duke University",
   imageUrl: "/profile.jpg",
-  about: "I am currently a rising senior majoring in Biomedical Engineering at Duke University. I will be pursuing an accelerated Master of Engineering in Artificial Intelligence post-graduation. I also do neurobiology research in hearing and communcation, particularly in neural mechanisms.",
+  about: "I am currently a rising senior majoring in Biomedical Engineering at Duke University. I will be pursuing an accelerated Master of Engineering in Artificial Intelligence post-graduation. I also do neurobiology research in hearing and communcation of mice, particularly in neural mechanisms. Some of my hobbies include travel, badminton, and golf.",
   contact: {
     email: "andrewcxjin@gmail.com",
     github: "https://github.com/andrewcxjin",
@@ -103,7 +103,7 @@ export const projects = [
       title: "Characterizing Anatomical Plasticity in the Auditory Cortex of Deaf Mice",
       description: "Imaged brain slices from hearing and deaf transgenic mice injected with a viral vector to label neurons connected to the auditory cortex, which were processed with the QUINT workflow to analyze neuron count distribution to the auditory cortext.",
       technologies: ["Python", "MATLAB", "QUINT"],
-      internalLink: "/projects/nlp-platform",
+      internalLink: "",
       externalLink: "",
       image: "/projects/nlp/main.jpg",
     }
