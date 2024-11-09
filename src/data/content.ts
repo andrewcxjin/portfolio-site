@@ -94,8 +94,9 @@ export const education = [
     degree: "B.S. in Biomedical Engineering",
     school: "Duke University",
     location: "Durham, NC",
-    period: "2021 - 2025"
-  },
+    period: "2021 - 2025",
+    description: "BME Design Fellows"
+  }
 ]; 
 
 export const projects = [
@@ -108,3 +109,14 @@ export const projects = [
       image: "/projects/mice/neuron.png",
     }
   ];
+
+export const coursework = [
+  {
+    level: "Undergraduate",
+    course: "BME"
+  },
+  {
+    level: "Graduate",
+    course: "AI"
+  }
+];
