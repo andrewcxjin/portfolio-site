@@ -3,7 +3,7 @@
 export const personalInfo = {
   name: "Andrew Jin",
   title: "Undergraduate Student @ Duke University",
-  imageUrl: "/profile.jpg",
+  imageUrl: "/profile.jpeg",
   about: "I am currently a rising senior majoring in Biomedical Engineering at Duke University. I will be pursuing an accelerated Master of Engineering in Artificial Intelligence post-graduation. I also do neurobiology research in hearing and communcation of mice, particularly in neural mechanisms. Some of my hobbies include travel, badminton, and golf.",
   contact: {
     email: "andrewcxjin@gmail.com",
@@ -85,7 +85,7 @@ export const experience = [
 
 export const education = [
   {
-    degree: "M.S. in Artificial Intelligence for Product Innovation",
+    degree: "M.Eng. in Artificial Intelligence for Product Innovation",
     school: "Duke University",
     location: "Durham, NC",
     period: "2025 - 2026"
@@ -105,6 +105,6 @@ export const projects = [
       technologies: ["Python", "MATLAB", "QUINT"],
       internalLink: "",
       externalLink: "",
-      image: "/projects/nlp/main.jpg",
+      image: "/projects/mice/neuron.png",
     }
   ];
