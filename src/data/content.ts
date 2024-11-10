@@ -19,7 +19,7 @@ export const skills = [
   },
   {
     name: "AI/ML",
-    items: ["PyTorch", "TensorFlow", "Transformers", "Computer Vision", "NLP"],
+    items: ["PyTorch", "TensorFlow", "Transformers", "Computer Vision", "NLP", "Keras"],
   },
   {
     name: "Cloud & MLOps",
@@ -31,7 +31,7 @@ export const skills = [
   },
   {
     name: "Tools",
-    items: ["Git", "VS Code", "Jupyter Lab"],
+    items: ["Git", "VS Code", "Jupyter Lab", "Microsoft Excel"],
   },
   {
     name: "Web Development",
@@ -94,8 +94,9 @@ export const education = [
     degree: "B.S. in Biomedical Engineering",
     school: "Duke University",
     location: "Durham, NC",
-    period: "2021 - 2025"
-  },
+    period: "2021 - 2025",
+    description: "BME Design Fellows"
+  }
 ]; 
 
 export const projects = [
@@ -108,3 +109,14 @@ export const projects = [
       image: "/projects/mice/neuron.png",
     }
   ];
+
+export const coursework = [
+  {
+    level: "Undergraduate",
+    course: "Quantitative Physiology Biostatistics Application, Modeling Cellular and Molecular Systems, MedTech Design, Medical Instrumentation, Modalities Diagnostic Imaging Systems"
+  },
+  {
+    level: "Graduate",
+    course: "Sourcing Data for Analytics, Embedded Medical Devices, Business Fundamentals for Engineers"
+  }
+];
