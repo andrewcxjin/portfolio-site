@@ -88,7 +88,8 @@ export const education = [
     degree: "M.Eng. in Artificial Intelligence for Product Innovation",
     school: "Duke University",
     location: "Durham, NC",
-    period: "2025 - 2026"
+    period: "2025 - 2026",
+    description: "",
   },
   {
     degree: "B.S. in Biomedical Engineering",
