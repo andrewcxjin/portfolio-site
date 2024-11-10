@@ -11,7 +11,6 @@ interface ContactProps {
     email: string;
     github: string;
     linkedin: string;
-    twitter: string;
   };
 }
 
