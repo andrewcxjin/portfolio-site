@@ -19,7 +19,7 @@ export const skills = [
   },
   {
     name: "AI/ML",
-    items: ["PyTorch", "TensorFlow", "Transformers", "Computer Vision", "NLP"],
+    items: ["PyTorch", "TensorFlow", "Transformers", "Computer Vision", "NLP", "Keras"],
   },
   {
     name: "Cloud & MLOps",
@@ -31,7 +31,7 @@ export const skills = [
   },
   {
     name: "Tools",
-    items: ["Git", "VS Code", "Jupyter Lab"],
+    items: ["Git", "VS Code", "Jupyter Lab", "Microsoft Excel"],
   },
   {
     name: "Web Development",
@@ -113,10 +113,10 @@ export const projects = [
 export const coursework = [
   {
     level: "Undergraduate",
-    course: "BME"
+    course: "Quantitative Physiology Biostatistics Application, Modeling Cellular and Molecular Systems, MedTech Design, Medical Instrumentation, Modalities Diagnostic Imaging Systems"
   },
   {
     level: "Graduate",
-    course: "AI"
+    course: "Sourcing Data for Analytics, Embedded Medical Devices, Business Fundamentals for Engineers"
   }
 ];
